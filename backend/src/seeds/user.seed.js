@@ -4,29 +4,7 @@ import User from "../models/user.model.js";
 
 config();
 
-const seedUsers = [
-  // Female Users
-
-  {
-    email: "tatenda@gmail.com",
-    fullName: "tatenda M",
-    password: "tatenda1234",
-    profilePic: "/avatar.png",
-  },
-  // Male Users
-  {
-    email: "chester@gmail.com",
-    fullName: "Chester J",
-    password: "chester123",
-    profilePic: "/avatar.png",
-  },
-  {
-    email: "farai@gmail.com",
-    fullName: "Farai E",
-    password: "farai123",
-    profilePic: "/avatar.png",
-  },
-];
+const seedUsers = [];
 
 const seedDatabase = async () => {
   try {
